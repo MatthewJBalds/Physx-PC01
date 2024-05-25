@@ -1,0 +1,6 @@
+﻿  GDPHYSX-SampleProject.cpp
+C:\Users\matth\Documents\GDPHYS\GDPHYSX---Repos\GDPHYSX-SampleProject\GDPHYSX-SampleProject.cpp(78,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\matth\Documents\GDPHYS\GDPHYSX---Repos\GDPHYSX-SampleProject\GDPHYSX-SampleProject.cpp(78,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\matth\Documents\GDPHYS\GDPHYSX---Repos\GDPHYSX-SampleProject\GDPHYSX-SampleProject.cpp(272,55): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  GRAP1_Projects.vcxproj -> C:\Users\matth\Documents\GDPHYS\GDPHYSX---Repos\GDPHYSX-SampleProject\x64\Debug\GDPHYSX-SampleProject.exe
