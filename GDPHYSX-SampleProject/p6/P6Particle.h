@@ -15,12 +15,16 @@ namespace P6 {
 			MyVector Velocity;
 			MyVector Acceleration;
 
+			bool active = false;
+			bool moving;
+
 		protected:
 			void UpdatePosition(float time);
 			void UpdateVelocity(float time);
 
 		public:
 			void update(float time);
+			void StopParticle();
 	};
 
 }

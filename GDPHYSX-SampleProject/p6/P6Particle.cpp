@@ -26,3 +26,10 @@ void P6Particle::update(float time) {
 	this->UpdateVelocity(time);
 
 }
+
+void P6Particle::StopParticle() {
+	if (glm::length(glm::vec2(Position.x, Position.y)) < 1.0f) {
+		this->Velocity = MyVector(0.0f, 0.0f, 0.0f);
+		this->moving = false;
+	}
+}
